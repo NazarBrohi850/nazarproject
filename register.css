@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.head {
+  min-height: 30vh;
+  background: #283f51;
+  color: white;
+}
+ul {
+  display: inline-block;
+  position: relative;
+  float: right;
+  top: 50px;
+  right: 33px;
+}
+ul li {
+  display: inline-block;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  padding: 3px;
+  padding-right: 8px;
+}
+.head-div p {
+  float: right;
+  position: relative;
+  top: 75px;
+  right: 33px;
+  font-size: 20px;
+  color: #688e84;
+  font-weight: 300;
+  margin: 0;
+}
+h1 {
+  font-size: 60px;
+  display: inline-block;
+  position: relative;
+  font-weight: 200;
+  left: 33px;
+  top: 24px;
+}
+/* .head-div{
+    display: inline-block;
+} */
+.div1 h1 {
+}
+.div2 h1 {
+  top: 12px;
+}
+
+.reg {
+  min-height: 40vh;
+  background: linear-gradient(to right, rgb(132, 250, 195), rgb(249, 255, 162));
+  overflow: hidden;
+}
+h2 {
+  color: #688e84;
+  text-align: center;
+  font-size: 45px;
+  /* display: inline-block; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: 200;
+}
+
+#p-reg{
+  text-align: center;
+  font-size: 24px;
+  margin: 0 6%;
+  line-height: 2;
+  color: rgb(158, 157, 157);
+  font-weight: 300;
+  }
+
+.form{
+  padding: 5%;
+  height: 70vh;
+  line-height: 1.5;
+  color: rgb(158, 157, 157);
+  font-weight: 300;
+}
+.form h3, .form h4 {
+  font-weight: 300;
+}
+.form h3{
+  font-size: 25px;
+}
+.form h4 {
+  font-size: 20px;
+}
+
+.li-form{
+  display: block;
+}
+.form ul{
+list-style-type: disc;
+padding-left: 3%;
+}
+table tr td p{
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #688e84;
+}
+input{
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 4px; 
+}
+textarea{
+  padding-left: 10px;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 6px;
+
+ 
+}
+table{
+  margin: 5%;
+  margin-top: 13%;
+  margin-right: 13%;
+}
+input[type=number]{
+  background: linear-gradient(rgb(184, 182, 182), white);
+  color: rgb(102, 101, 101);
+}
+.form, .form2{
+  display: inline-block;
+  width: 40%;
+}
+.form{
+  width: 50%;
+}
+.form2{
+  float: right;
+}
+footer {
+  height: 10vh;
+  background: #283f51;
+}
+
+footer p,
+footer ul {
+  margin: 0 30px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+footer ul {
+  float: right;
+  margin-top: 0;
+  top: 25px;
+}
+footer ul li a {
+  font-size: 16px;
+  color: #fff;
+  top: 15px;
+}
+
+footer p {
+  display: inline-block;
+  color: #688e84;
+}

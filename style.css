@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  width: 100%;
+  min-height: 100vh;
+}
+body {
+  background: #283f51;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+ul li {
+  display: inline-block;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  padding: 3px;
+  padding-right: 8px;
+}
+.head-div p {
+  float: right;
+  position: relative;
+  top: 75px;
+  right: 33px;
+  font-size: 20px;
+  color: #688e84;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.head-div ul {
+  float: right;
+  position: relative;
+  top: 52px;
+  right: 33px;
+}
+h1 {
+  font-size: 60px;
+  display: inline-block;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+.div2 h1 {
+  top: 12px;
+  left: 33px;
+}
+.div1 h1 {
+  top: 24px;
+  left: 33px;
+}
+.div3 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  line-height: 2;
+  margin-top: 40px;
+  top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+.div3 h2 {
+  font-size: 35px;
+  color: #688e84;
+}
+.div3 p {
+  font-size: 24px;
+  line-height: 2;
+}
+
+button {
+  background: transparent;
+  /* padding: 20px 30px; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* button:hover {
+  background: white;
+  color: rgb(20, 66, 64);
+  border: 1px solid rgb(20, 66, 64);
+} */
+button a{
+  font-size: 14px;
+  background: transparent;
+  padding: 20px 30px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+  cursor: pointer;
+  transition: 0.5s;
+}
+button a:hover {
+  background: white;
+  color: rgb(20, 66, 64);
+  /* border: 1px solid rgb(20, 66, 64); */
+}
+
+.blog {
+  min-height: 90vh;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff;
+}
+img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.para {
+  text-align: center;
+  width: 320px;
+  display: inline-block;
+  margin: 0 40px;
+  color: white;
+  margin-top: 10vh;
+}
+.names,
+h3 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+h3 {
+  color: #688e84;
+}
+#pp {
+  text-align: left;
+  margin: 0;
+  line-height: 1.7;
+  color: gray;
+}
+
+footer {
+  height: 10vh;
+}
+footer ul {
+  float: right;
+}
+footer p,
+footer ul {
+  margin: 0 30px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+footer ul li a {
+  font-size: 16px;
+}
+
+footer p {
+  display: inline-block;
+  color: #688e84;
+}
